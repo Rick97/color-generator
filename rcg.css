@@ -14,13 +14,13 @@ body{
     font-size: clamp(2rem, 4vw, 4rem); 
     padding: 1em;
     text-shadow: 2px 2px #c25050;
-    height: 15vh;
+    height: 15dvh;
 }
 
 .grid{
     display: grid;
     padding: 1em;
-    height: 70vh;
+    height: 70dvh;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 1em 1em;
@@ -54,7 +54,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 15dvh;
 }
 
 #button{
