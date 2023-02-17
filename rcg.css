@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(60, 60, 60);
+}
+
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ivory;
+    font-size: clamp(2rem, 4vw, 4rem); 
+    padding: 1em;
+    text-shadow: 2px 2px #c25050;
+    height: 15vh;
+}
+
+.grid{
+    display: grid;
+    padding: 1em;
+    height: 70vh;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em 1em;
+}
+
+.div{
+    margin: auto;
+    border: 4px solid white;
+    box-sizing: border-box;
+    border-radius: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.color-wrapper{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.color{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    color: ivory;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#button{
+    width: 5.5em;
+    height: 3em;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: darkslategray;
+    color: ivory;
+    border: 2px solid white;
+    border-radius: 1em;
+    box-shadow: 0 5px #999;
+}
+
+#button:active {
+    background-color: rgb(40, 70, 70);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
