@@ -7,7 +7,6 @@
 main{
     background-color: rgb(60, 60, 60);
     min-height: 100vh;
-    min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -16,16 +15,14 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: ivory;
     font-size: clamp(2rem, 4vw, 4rem); 
-    padding: 1em;
+    padding: 0.5em;
     text-shadow: 2px 2px #c25050;
-    height: 15vh;
 }
 
 .grid{
     display: grid;
     margin-top: 1em;
     padding: 1em;
-    height: 70vh;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 1em 1em;
@@ -59,13 +56,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
 }
 
 #button{
     width: 5.5em;
     height: 3em;
     font-size: clamp(1rem, 2.5vw, 2rem);
+    margin-bottom: 1em;
     appearance: none;
     border: none;
     outline: none;
