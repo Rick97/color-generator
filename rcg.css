@@ -6,7 +6,9 @@
 
 main{
     background-color: rgb(60, 60, 60);
-    min-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
